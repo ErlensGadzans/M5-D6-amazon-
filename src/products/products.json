@@ -32,7 +32,7 @@
     "name": "Creamy KitKat",
     "description": "Mmmmm. Creamy!",
     "brand": "KITKAT",
-    "price": "4",
+    "price": 15,
     "category": "Food",
     "_id": "59dtt2c8kikf0dkc",
     "createdAt": "2020-12-11T15:18:19.307Z",

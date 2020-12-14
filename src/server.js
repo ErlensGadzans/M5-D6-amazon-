@@ -1,6 +1,6 @@
 const express = require("express");
 const reviewsRoutes = require("./reviews");
-const cartsRoutes = require("./carts");
+const usersRoutes = require("./users");
 const fileRoutes = require("./files/upload");
 const productsRouter = require("./products");
 const cors = require("cors");
@@ -25,7 +25,7 @@ server.use(
 );
 
 server.use("/products", productsRouter);
-server.use("/carts", cartsRoutes);
+server.use("/users", usersRoutes);
 server.use("/reviews", reviewsRoutes);
 server.use("/files", fileRoutes);
 

@@ -41,6 +41,7 @@ const badRequestHandler = (err, req, res, next) => {
 };
 
 const catchAllHandler = (err, req, res, next) => {
+  console.log(err);
   if (!res.headersSent) {
     res.status(500).send("We don't know whats gone wrong");
   }
